@@ -8,17 +8,21 @@ const CardList = () => {
         {
             plan: 'FREE',
             price: 0,
-            features: ['Single User', '50GB Storage', 'Unlimited Public Projects', 'Community Access'],
+            features: ['Single User', '50GB Storage', 'Unlimited Public Projects', 'Community Access',
+
+                'Unlimited Private Project', 'Dedicated Phone Support', 'Free SubDomain', 'Monthly Status Report'],
         },
         {
             plan: 'PLUS',
             price: 9,
-            features: ['5 Users', '50GB Storage', 'Unlimited Public Projects', 'Community Access'],
+            features: ['5 Users', '50GB Storage', 'Unlimited Public Projects', 'Community Access',
+                'Unlimited Private Project', 'Dedicated Phone Support', 'Free SubDomain', 'Monthly Status Report'],
         },
         {
             plan: 'PRO',
             price: 49,
-            features: ['Unlimited Users', '50GB Storage', 'Unlimited Public Projects', 'Community Access'],
+            features: ['Unlimited Users', '50GB Storage', 'Unlimited Public Projects', 'Community Access',
+                'Unlimited Private Project', 'Dedicated Phone Support', 'Free SubDomain', 'Monthly Status Report'],
         },
     ];
 

@@ -5,14 +5,14 @@ import React from 'react';
 const Card = ({ plan, price, features }) => {
     return (
         <div className="card">
-            <h2>{plan}</h2>
-            <p className="price">${price}/month</p>
+            <p >{plan}</p>
+            <h1 className="price ">${price}/month</h1>
             <ul>
                 {features.map((feature, index) => (
                     <li key={index}>{feature}</li>
                 ))}
             </ul>
-            <button className="button">BUTTON</button>
+            <button className="btn btn btn-primary">BUTTON</button>
         </div>
     );
 };
