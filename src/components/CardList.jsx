@@ -11,18 +11,21 @@ const CardList = () => {
             features: ['Single User', '50GB Storage', 'Unlimited Public Projects', 'Community Access',
 
                 'Unlimited Private Project', 'Dedicated Phone Support', 'Free SubDomain', 'Monthly Status Report'],
+            isFeautured: false
         },
         {
             plan: 'PLUS',
             price: 9,
             features: ['5 Users', '50GB Storage', 'Unlimited Public Projects', 'Community Access',
                 'Unlimited Private Project', 'Dedicated Phone Support', 'Free SubDomain', 'Monthly Status Report'],
+            isFeautured: false
         },
         {
             plan: 'PRO',
             price: 49,
             features: ['Unlimited Users', '50GB Storage', 'Unlimited Public Projects', 'Community Access',
                 'Unlimited Private Project', 'Dedicated Phone Support', 'Free SubDomain', 'Monthly Status Report'],
+            isFeautured: true
         },
     ];
 
